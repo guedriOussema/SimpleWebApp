@@ -6,7 +6,7 @@ let http = require('http');
  * Get port from environment and store in Express.
  */
 
-let port = normalizePort(process.env.PORT || '3000');
+let port = 80;
 app.set('port', port);
 
 /**
